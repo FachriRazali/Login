@@ -1,0 +1,16 @@
+     
+     <h3> merchant List : <h3>
+     
+      <ul>
+        {merchants.length > 0 ? (
+          merchants.map((merchant) => (
+            <li key={merchant.id}>{merchant.name}</li>
+          ))
+        ) : (
+          <p>No merchants found.</p>
+        )}
+      </ul>
+
+
+
+
